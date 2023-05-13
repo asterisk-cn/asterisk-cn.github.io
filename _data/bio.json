@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
     "profiles": [
       { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" },
-      { "network": "twitter", "username": "あすたりすく", "url": "http://twitter.com/asterisk_cn" }
+      { "network": "twitter", "username": "@asterisk_cn", "url": "http://twitter.com/asterisk_cn" }
     ]
   },
   "interests": [
