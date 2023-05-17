@@ -12,7 +12,7 @@ labels:
 summary: "A simple game for multiplayers."
 ---
 
-<img class="img-fluid" src="../img/ink-a-teikoku/home-page.png">
+<img class="img-fluid" src="../img/ink-a-teikoku/homepage.png">
 
 Ink a Teikoku is a simple and easy game where the winner is decided in one round, even with a large group of players. (Some times there is a tie.) Play once and you'll understand the whole game.
 
