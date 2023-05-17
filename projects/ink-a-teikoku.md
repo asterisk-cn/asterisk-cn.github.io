@@ -23,5 +23,5 @@ In this project I gained experience with full-stack web application design and a
 Here is a sample image of game play:
 
 <img class="img-fluid" src="../img/ink-a-teikoku/gameplay.png">
- 
+
 Source: <a href="https://github.com/asterisk-cn/ink-a-teikoku"><i class="large github icon "></i>asterisk-cn/ink-a-teikoku</a>
