@@ -1,70 +1,67 @@
 {
-  "basics": {
-    "name": "Tasuku Tanaka",
-    "label": "Student",
-    "picture": "https://github.com/asterisk-cn.png",
-    "email": "ttasuku-s122@g.ecc.u-tokyo.ac.jp",
-    "phone": "09040928075",
-    "website": "https://asterisk-cn.github.io",
-    "summary": "I am studying for B.S. in Computer Science in the Department of Information and Communication Engineering at the University of Tokyo. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
-    "profiles": [
-      { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" },
-      { "network": "twitter", "username": "@asterisk_cn", "url": "http://twitter.com/asterisk_cn" }
-    ]
-  },
-  "interests": [
-    { "name": "Human Computer Interaction" },
-    { "name": "Human-centered Computing" },
-    { "name": "Interaction Design" },
-    { "name": "User Interface" },
-    { "name": "UX" },
-    { "name": "Video Game Learnability" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python", "HTML", "Javascript", "CSS", "Bash", "OpenCV", "PyTorch"]
+    "basics": {
+        "name": "Tasuku Tanaka",
+        "label": "Student",
+        "picture": "https://github.com/img/asterisk-cn.png",
+        "email": "ttasuku-s122@g.ecc.u-tokyo.ac.jp",
+        "phone": "09040928075",
+        "website": "https://asterisk-cn.github.io",
+        "summary": "I am studying for B.S. in Computer Science in the Department of Information and Communication Engineering at the University of Tokyo. I expect to graduate in Spring, 2024.",
+        "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
+        "profiles": [
+            { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" },
+            { "network": "twitter", "username": "@asterisk_cn", "url": "http://twitter.com/asterisk_cn" }
+        ]
     },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "WSL", "MacOS", "Ubuntu", "Git/GitHub", "Unity", "Node.js"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Tokyo",
-      "area": "Computer Science (expected Spring, 2024)",
-      "studyType": "B.S.",
-      "startDate": "2020-04",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Lightblue Technology",
-      "position": "Backend Engineer, Data Scientist",
-      "startDate": "2022-08",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Postural estimation for health of physical workers"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Grand Prize",
-      "date": "2022",
-      "awarder": "あそびの未来ファクトリー",
-      "summary": "My team won grand prize in 2022. See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
+    "interests": [
+        { "name": "Human Computer Interaction" },
+        { "name": "Human-centered Computing" },
+        { "name": "Interaction Design" },
+        { "name": "User Interface" },
+        { "name": "UX" },
+        { "name": "Video Game Learnability" }
+    ],
+    "skills": [
+        {
+            "name": "Languages and Frameworks",
+            "keywords": ["C", "C++", "Python", "HTML", "Javascript", "CSS", "Bash", "OpenCV", "PyTorch"]
+        },
+        {
+            "name": "Toolsets/OS",
+            "keywords": ["WSL", "MacOS", "Ubuntu", "Git/GitHub", "Unity", "Node.js"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Tokyo",
+            "area": "Computer Science (expected Spring, 2024)",
+            "studyType": "B.S.",
+            "startDate": "2020-04",
+            "endDate": "Present",
+            "courses": []
+        }
+    ],
+    "work": [
+        {
+            "company": "Lightblue Technology",
+            "position": "Backend Engineer, Data Scientist",
+            "startDate": "2022-08",
+            "endDate": "Present",
+            "summary": "",
+            "highlights": ["Postural estimation for health of physical workers"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Grand Prize",
+            "date": "2022",
+            "awarder": "あそびの未来ファクトリー",
+            "summary": "My team won grand prize in 2022. See my portfolio site for more details."
+        }
+    ],
+    "references": [
+        {
+            "name": "Available upon request"
+        }
+    ]
 }
