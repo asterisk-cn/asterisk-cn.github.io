@@ -4,7 +4,7 @@ type: essay
 title: "The difficult things will always be difficult"
 # All dates must be YYYY-MM-DD format!
 date: 2016-02-06
-published: true
+published: false
 labels:
   - Engineering
 ---
@@ -45,7 +45,7 @@ Relationships, regardless if they're romantic or not take work. Humans are fickl
 
 Relationships have always been difficult, and by nature will continue to be so.
 
-## Okay!
+## Okay
 
 So back to the original premise; why is being one of the club officers so difficult?
 
