@@ -1,0 +1,14 @@
+# Custom Dictionary Words
+endcapture
+endunless
+forloop
+markdownify
+mathjax
+nojekyll
+projecturl
+Tanaka
+Tasuku
+techfolio
+techfolios
+teikoku
+Teikoku
