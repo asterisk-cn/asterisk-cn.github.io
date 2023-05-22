@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ink-a-teikoku/square.png
 title: "Ink a Teikoku"
-date: 2022
+date: 2023-05-10
 published: true
 labels:
   - Javascript
