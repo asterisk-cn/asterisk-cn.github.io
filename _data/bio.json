@@ -23,12 +23,20 @@
     ],
     "skills": [
         {
-            "name": "Languages and Frameworks",
-            "keywords": ["C", "C++", "Python", "HTML", "Javascript", "CSS", "Bash", "OpenCV", "PyTorch"]
+            "name": "Languages",
+            "keywords": ["C", "C++", "CSS", "HTML5", "Javascript", "Julia", "Markdown", "Python"]
         },
         {
-            "name": "Toolsets/OS",
-            "keywords": ["WSL", "MacOS", "Ubuntu", "Git/GitHub", "Unity", "Node.js"]
+            "name": "Frameworks/Libraries",
+            "keywords": ["Bootstrap5", "Express", "npm", "Node.js", "Unity", "Socket.IO"]
+        },
+        {
+            "name": "ML/DL",
+            "keywords": ["Keras", "PyTorch", "scikit-learn", "TensorFlow"]
+        },
+        {
+            "name": "Others",
+            "keywords": ["Docker", "Git/Github", "LaTeX", "Linux"]
         }
     ],
     "education": [
