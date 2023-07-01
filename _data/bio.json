@@ -9,8 +9,7 @@
         "summary": "I am studying for B.S. in Computer Science in the Department of Information and Communication Engineering at the University of Tokyo. I expect to graduate in Spring, 2024.",
         "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
         "profiles": [
-            { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" },
-            { "network": "twitter", "username": "@asterisk_cn", "url": "http://twitter.com/asterisk_cn" }
+            { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" }
         ]
     },
     "interests": [
