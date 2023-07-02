@@ -1,0 +1,67 @@
+.highlight table td {
+    padding: 5px;
+}
+
+.highlight table pre {
+    margin: 0;
+}
+
+.highlight,
+.highlight .w {
+    color: #444444;
+}
+
+.highlight .cp {
+    color: #cc00a3;
+}
+
+.highlight .cs {
+    color: #cc00a3;
+}
+
+.highlight .c,
+.highlight .cd,
+.highlight .cm,
+.highlight .c1 {
+    color: #ff0000;
+}
+
+.highlight .kc {
+    color: #c34e00;
+}
+
+.highlight .kd {
+    color: #0000ff;
+}
+
+.highlight .kr {
+    color: #007575;
+}
+
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .kt,
+.highlight .kv {
+    color: #0000ff;
+}
+
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+    color: #009c00;
+}
+
+.highlight .nb,
+.highlight .bp {
+    color: #c34e00;
+}
