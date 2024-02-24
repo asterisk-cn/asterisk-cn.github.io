@@ -6,7 +6,7 @@
         "email": "ttasuku-s122@g.ecc.u-tokyo.ac.jp",
         "phone": "09040928075",
         "website": "https://asterisk-cn.com",
-        "summary": "I am studying for B.S. in Computer Science in the Department of Information and Communication Engineering at the University of Tokyo. I expect to graduate in Spring, 2024.",
+        "summary": "I am studying for M.S. in emerging design and informatics in the Graduate School of Interdisciplinary Information Studies at the University of Tokyo. I expect to graduate in Spring, 2026.",
         "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
         "profiles": [
             { "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" }
@@ -18,16 +18,16 @@
         { "name": "Interaction Design" },
         { "name": "User Interface" },
         { "name": "UX" },
-        { "name": "Video Game Learnability" }
+        { "name": "Video Game" }
     ],
     "skills": [
         {
             "name": "Languages",
-            "keywords": ["C", "C++", "CSS", "HTML5", "Javascript", "Julia", "Markdown", "Python"]
+            "keywords": ["C", "C++", "CSS", "HTML5", "Javascript/Typescript", "Julia", "Python"]
         },
         {
             "name": "Frameworks/Libraries",
-            "keywords": ["Bootstrap5", "Express", "npm", "Node.js", "Unity", "Socket.IO"]
+            "keywords": ["Node.js", "React", "Unity"]
         },
         {
             "name": "ML/DL",
@@ -40,22 +40,30 @@
     ],
     "education": [
         {
-            "institution": "University of Tokyo",
+            "institution": "University of Tokyo Faculty of Engineering",
             "area": "Computer Science (expected Spring, 2024)",
             "studyType": "B.S.",
             "startDate": "2020-04",
+            "endDate": "2024-03",
+            "courses": [Department of Electrical and Electronic Engineering]
+        },
+        {
+            "institution": "University of Tokyo Interfaculty Initiative in Information Studies",
+            "area": "Computer Science (expected Spring, 2024)",
+            "studyType": "M.S.",
+            "startDate": "2020-04",
             "endDate": "Present",
-            "courses": []
+            "courses": [Emerging design and informatics course]
         }
     ],
     "work": [
         {
-            "company": "Lightblue Technology",
+            "company": "Lightblue",
             "position": "Backend Engineer, Data Scientist",
             "startDate": "2022-08",
             "endDate": "Present",
             "summary": "",
-            "highlights": ["Postural estimation for health of physical workers"]
+            "highlights": ["Postural estimation for health of physical workers", "Chat bot for company using RAG"]
         }
     ],
     "awards": [
