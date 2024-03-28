@@ -10,5 +10,5 @@ labels:
   - Unity
   - Arduino
 summary: "I developed a game controller that utilizes the physical properties of ice."
-projecturl: https://www.interaction-ipsj.org/2024/catalog/#interactive1 (1A04, Paper TBD)
+projecturl: https://www.youtube.com/watch?v=xQLDryRYrqQ
 ---
