@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/tbd.png
 title: "Elemental Slayer"
-date: 2024-03-05
+date: 2024-03-31
 published: true
 labels:
   - Unity
