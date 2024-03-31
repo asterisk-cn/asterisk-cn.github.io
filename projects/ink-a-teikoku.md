@@ -10,6 +10,8 @@ labels:
   - Bootstrap
   - GitHub
 summary: "A simple game for multi players."
+githuburl: https://ink-a-teikoku.onrender.com/
+fullpage: true
 ---
 
 Ink a Teikoku is a simple and easy game where the winner is decided in one round, even with a large group of players. (Some times there is a tie.) Play once and you'll understand the whole game.

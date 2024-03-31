@@ -13,10 +13,25 @@
           <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
         </p>
+        {% if page.fullpage %}
+        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark me-2">Read More</a>
+        {% endif %}
         {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
-        {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+        <a href="{{ page.projecturl }}" class="btn btn-outline-dark me-2">Project Site</a>
+        {% endif %}
+        {% if {page.fullpage or page.projecturl} and {page.githuburl or page.youtube} %}
+        <div class="vr me-2" style="vertical-align: middle; height: 2em;"></div>
+        {% endif %}
+        {% if page.githuburl %}
+        <span>
+          {% include projects/social.html url=page.githuburl name="github" %}
+        </span>
+        {% endif %}
+        {% if page.youtubeurl %}
+        <div class="vr me-2" style="vertical-align: middle; height: 2em;"></div>
+        <span>
+          {% include projects/social.html url=page.youtubeurl name="youtube" %}
+        </span>
         {% endif %}
       </div>
     </div>

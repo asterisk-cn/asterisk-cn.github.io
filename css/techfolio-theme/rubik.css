@@ -38,6 +38,19 @@ h5 {
     fill: var(--tf-icon-hover);
 }
 
+.card-social {
+    display: inline-block;
+    fill: var(--tf-icon-fill);
+    height: 2em;
+    vertical-align: middle;
+    width: 2em;
+    transition: 0.2s;
+}
+
+.card-social:hover {
+    fill: var(--tf-icon-hover);
+}
+
 a {
     text-decoration: none;
 }

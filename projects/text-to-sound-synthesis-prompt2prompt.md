@@ -7,6 +7,7 @@ date: 2022-11-27
 published: true
 labels:
   - Python
-summary: "My team developed a intuitive editing framework for text-to-sound generation."
-projecturl: https://github.com/decfrr/Text-to-sound-Synthesis-Prompt2Prompt
+  - GitHub
+summary: "A intuitive editing framework for text-to-sound generation."
+githuburl: https://github.com/decfrr/Text-to-sound-Synthesis-Prompt2Prompt
 ---
