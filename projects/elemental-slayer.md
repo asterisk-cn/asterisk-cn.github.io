@@ -8,6 +8,6 @@ published: false
 labels:
   - Unity
   - GitHub
-summary: "Embark on an enchanting quest in Elemental Slayer! Defeat the cute elemental creatures as many as you can within the time limit!"
+summary: "A sample 3D game created with Unity."
 githuburl: https://github.com/asterisk-cn/ElementalSlayer
 ---
