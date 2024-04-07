@@ -10,8 +10,8 @@ labels:
   - Bootstrap
   - GitHub
 summary: "A simple game for multi players."
-projecturl: ink-a-teikoku.onrender.com
-githuburl: https://ink-a-teikoku.onrender.com/
+projecturl: https://ink-a-teikoku.onrender.com/
+githuburl: https://github.com/asterisk-cn/asterisk-cn.github.io
 fullpage: true
 ---
 
