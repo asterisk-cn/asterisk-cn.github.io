@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/tbd.png
+image: img/elemental-slayer/thumbnail.png
 title: "Elemental Slayer"
 date: 2024-03-31
-published: true
+published: false
 labels:
   - Unity
   - GitHub
