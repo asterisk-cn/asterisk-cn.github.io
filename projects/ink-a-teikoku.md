@@ -10,6 +10,7 @@ labels:
   - Bootstrap
   - GitHub
 summary: "A simple game for multi players."
+projecturl: ink-a-teikoku.onrender.com
 githuburl: https://ink-a-teikoku.onrender.com/
 fullpage: true
 ---
