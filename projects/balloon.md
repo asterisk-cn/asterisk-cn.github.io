@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tbd.png
+image: img/balloon/thumbnail.png
 title: "Balloon"
 date: 2024-04-08
 published: true
