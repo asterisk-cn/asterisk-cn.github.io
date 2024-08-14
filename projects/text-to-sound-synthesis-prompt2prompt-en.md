@@ -1,6 +1,6 @@
 ---
 layout: project
-lang: 'ja'
+lang: 'en'
 permalink: /projects/text-to-sound-synthesis-prompt2prompt/
 type: project
 image: img/text-to-sound-synthesis-prompt2prompt/thumbnail.png
@@ -10,6 +10,6 @@ published: true
 labels:
   - Python
   - GitHub
-summary: "拡散モデルを用いた音の生成と直観的な編集機能"
+summary: "A intuitive editing framework for text-to-sound generation."
 githuburl: https://github.com/decfrr/Text-to-sound-Synthesis-Prompt2Prompt
 ---

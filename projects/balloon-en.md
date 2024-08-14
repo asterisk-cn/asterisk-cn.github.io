@@ -1,6 +1,6 @@
 ---
 layout: project
-lang: 'ja'
+lang: 'en'
 permalink: /projects/balloon/
 type: project
 image: img/balloon/thumbnail.png
@@ -10,7 +10,7 @@ published: true
 labels:
   - Unity
   - GitHub
-summary: "3クリックで大きい円を作るワンボタンゲーム"
+summary: "Create a large circle with only three clicks."
 projecturl: https://asterisk-cn.github.io/balloon/
 githuburl: https://github.com/asterisk-cn/balloon
 ---
