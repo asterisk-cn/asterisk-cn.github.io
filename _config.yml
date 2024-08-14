@@ -30,3 +30,10 @@ include:
     - _data
 plugins:
     - jekyll-gist
+    - jekyll-polyglot
+
+# Polyglot settings
+languages: ['ja', 'en']
+default_lang: 'ja'
+exclude_from_localization: ['javascript', 'img', 'css']
+parallel_localization: false

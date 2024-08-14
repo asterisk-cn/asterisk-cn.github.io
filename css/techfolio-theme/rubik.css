@@ -6,7 +6,7 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-    --bs-font-sans-serif: "Open Sans", sans-serif;
+    --bs-body-font-family: "M PLUS 1p";
     --bs-link-color: var(--bs-blue);
     --tf-pill-bg: var(--bs-gray);
     --tf-icon-fill: var(--bs-gray);
@@ -14,6 +14,8 @@
     --tf-page-bg-color: var(--bs-white);
     --tf-footer-bg-color: var(--bs-gray-200);
     --tf-projects-bg-color: var(--bs-gray-100);
+    --bs-nav-link-color: rgba(0, 0, 0, 0.55);
+    --bs-nav-link-hover-color: rgba(0, 0, 0, 0.7);
 }
 
 h1,
@@ -53,6 +55,31 @@ h5 {
 
 a {
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-brand-mobile {
+        display: inline;
+    }
+}
+
+.navbar-lang {
+    color: var(--bs-nav-link-color);
+}
+
+.navbar-lang:hover {
+    color: var(--bs-nav-link-hover-color);
+}
+
+.navbar-lang-active {
+    font-weight: bold;
+    color: var(--bs-nav-link-hover-color);
+    text-decoration: underline;
+    text-underline-offset: .25em;
 }
 
 /* Simplify the styling of the bottom of Essay cards. */

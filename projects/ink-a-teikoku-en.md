@@ -1,6 +1,6 @@
 ---
 layout: project
-lang: 'ja'
+lang: 'en'
 permalink: /projects/ink-a-teikoku/
 type: project
 image: img/ink-a-teikoku/square.png
@@ -11,7 +11,7 @@ labels:
   - Javascript
   - Bootstrap
   - GitHub
-summary: "ジャンケンに代わる簡単なゲーム<br>あそびの未来ファクトリー2022にて最優秀賞を受賞"
+summary: "A simple game for multi players."
 projecturl: https://ink-a-teikoku.onrender.com/
 githuburl: https://github.com/asterisk-cn/asterisk-cn.github.io
 fullpage: true
