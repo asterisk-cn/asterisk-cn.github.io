@@ -64,7 +64,7 @@
             "company": "Lightblue",
             "position": "Backend Engineer, Data Scientist",
             "startDate": "2022-08",
-            "endDate": "Present",
+            "endDate": "2024-04",
             "highlights": ["Postural estimation for health of physical workers", "Chat bot for company using RAG"]
         }
     ],
@@ -73,6 +73,11 @@
             "title": "Grand Prize",
             "date": "2022",
             "awarder": "あそびの未来ファクトリー"
+        },
+        {
+            "title": "Grand Prize (Tokyo)・高橋明人賞",
+            "date": "2024",
+            "awarder": "BitSummit Game Jam"
         }
     ],
     "publication": {
@@ -80,7 +85,7 @@
         "international": [],
         "domestic": [
             {
-                "title": "℃0Button: 氷の物性を活用したゲームコントローラ",
+                "title": "°C0Button: 氷の物性を活用したゲームコントローラ",
                 "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
                 "conference": "インタラクション2024",
                 "date": "March 2024",
@@ -95,6 +100,12 @@
             "publisher": "ITMedia",
             "date": "2024.03",
             "url": "https://www.itmedia.co.jp/news/articles/2403/05/news052.html"
+        },
+        {
+            "title": "全力で圧倒する「Over Power」をテーマに，学生たちが協力して作品を作り上げる。「BitSummit Game Jam 2024」ブースレポート",
+            "publisher": "4Gamer.net",
+            "date": "2024.07",
+            "url": "https://www.4gamer.net/games/999/G999905/20240727007/"
         }
     ],
     "references": [
