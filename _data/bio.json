@@ -26,11 +26,11 @@
     "skills": [
         {
             "name": "Languages",
-            "keywords": ["C", "C++", "CSS", "HTML5", "Javascript/Typescript", "Julia", "Python"]
+            "keywords": ["C", "C++", "C#", "CSS", "HTML5", "Javascript/Typescript", "Julia", "Python"]
         },
         {
             "name": "Frameworks/Libraries",
-            "keywords": ["Node.js", "React", "Unity"]
+            "keywords": ["Node.js", "React", "Unity", "Unreal Engine"]
         },
         {
             "name": "ML/DL",
@@ -78,7 +78,18 @@
             "title": "Grand Prize (Tokyo)・高橋明人賞",
             "date": "2024",
             "awarder": "BitSummit Game Jam"
-        }
+        },
+        {
+            "title": "Best20",
+            "date": "2024",
+            "awarder": "Indie Games Contest 学生選手権"
+        },
+        {
+            "title": "スコア賞",
+            "date": "2024",
+            "awarder": "Game Speed Hackason 2024 autumn"
+        },
+            
     ],
     "publication": {
         "journal": [],
@@ -89,6 +100,13 @@
                 "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
                 "conference": "インタラクション2024",
                 "date": "March 2024",
+                "misc": []
+            },
+            {
+                "title": "デュアルジョイスティックを用いた仮名入力の検討～子音と母音の両手へのマッピング～",
+                "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
+                "conference": "ヒューマンインタフェースシンポジウム2024",
+                "date": "September 2024",
                 "misc": []
             }
         ],
