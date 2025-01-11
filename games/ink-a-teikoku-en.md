@@ -2,7 +2,7 @@
 layout: project
 lang: 'en'
 permalink: /projects/ink-a-teikoku/
-type: project
+type: game
 image: img/ink-a-teikoku/square.png
 title: "Ink a Teikoku"
 date: 2023-05-10
@@ -10,7 +10,6 @@ published: true
 labels:
   - Javascript
   - Bootstrap
-  - GitHub
 summary: "A simple game for multi players."
 projecturl: https://ink-a-teikoku.onrender.com/
 githuburl: https://github.com/asterisk-cn/asterisk-cn.github.io

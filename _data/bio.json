@@ -98,18 +98,33 @@
                 "title": "°C0Button: 氷の物性を活用したゲームコントローラ",
                 "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
                 "conference": "インタラクション2024",
-                "date": "March 2024",
+                "date": "2024.03",
                 "misc": []
             },
             {
                 "title": "デュアルジョイスティックを用いた仮名入力の検討～子音と母音の両手へのマッピング～",
                 "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
                 "conference": "ヒューマンインタフェースシンポジウム2024",
-                "date": "September 2024",
+                "date": "2024.09",
                 "misc": []
             }
         ],
-        "exhibition": []
+        "exhibition": [
+            {
+                "title": "裏地図",
+                "author": ["井上 国太郎", "田中 祐玖", "機田 悠希", "花岡 桃可", "鈴木 健"],
+                "exhibition":"東京大学制作展 EXTRA 2024 なにいう展",
+                "date": "2024.07",
+                "misc": []
+            },
+            {
+                "title": "書動",
+                "author": ["小西 優多郎", "田中 祐玖", "都築 あい", "席 竞帆"],
+                "exhibition":"東京大学制作展 2024 付いて離れて",
+                "date": "2024.11",
+                "misc": []
+            }
+        ]
     },
     "media": [
         {

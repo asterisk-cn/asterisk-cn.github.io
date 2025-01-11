@@ -2,7 +2,7 @@
 layout: project
 lang: 'en'
 permalink: /projects/cobutton/
-type: project
+type: research
 image: img/cobutton/thumbnail.png
 title: "°C0Button"
 date: 2024-03-05

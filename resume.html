@@ -241,9 +241,32 @@ layout: home
               <li>
                 <!-- <p class="mb-0"> -->
                 {% for author in entry.author %}
-                {{ author }}{% if forloop.last != true %}, {% else %}:{% endif %}
-                {% endfor %}
-                "{{ entry.title }}". {{ entry.conference }}, {{ entry.date }}<!--
+                {{ author }}{% if forloop.last != true %}, {% endif %}<!--
+                -->{% endfor %}<!--
+                -->「{{ entry.title }}」{{ entry.conference }}, {{ entry.date }}<!--
+                -->{% if entry.misc %}{% for misc in entry.misc %}<!--
+                -->{{ misc }}{% if forloop.last != true %}, {% endif %}<!--
+                -->{% endfor %}{% endif %}.
+                <!-- </p> -->
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% if site.data.bio.publication.exhibition %}
+        <div class="row mb-3">
+          <p class="mb-0"><b>Exhibition</b></p>
+        </div>
+        <div class="row mb-3">
+          <div class="col-12">
+            <ul>
+              {% for entry in site.data.bio.publication.exhibition %}
+              <li>
+                <!-- <p class="mb-0"> -->
+                {% for author in entry.author %}
+                {{ author }}{% if forloop.last != true %}, {% endif %}<!--
+                -->{% endfor %}<!--
+                -->「{{ entry.title }}」{{ entry.exhibition }}, {{ entry.date }}<!--
                 -->{% if entry.misc %}{% for misc in entry.misc %}<!--
                 -->{{ misc }}{% if forloop.last != true %}, {% endif %}<!--
                 -->{% endfor %}{% endif %}.
