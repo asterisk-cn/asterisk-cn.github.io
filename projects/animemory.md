@@ -3,7 +3,7 @@ layout: project
 lang: 'ja'
 permalink: /projects/animemory/
 type: project
-image: img/animemory/thumbnail.jpg
+image: img/animemory/thumbnail.png
 title: "Animemory -記憶の図書館-（技術協力）"
 date: 2025-2-15
 published: true
