@@ -4,7 +4,7 @@
         "name_ja": "田中 祐玖",
         "label": "Student",
         "picture": "https://github.com/asterisk-cn.png",
-        "email": "ttasuku-s122[at]g.ecc.u-tokyo.ac.jp",
+        "email": "ttanaka[at]nae-lab.org",
         "website": "https://asterisk-cn.github.io",
         "summary": "I am studying for M.S. in emerging design and informatics in the Graduate School of Interdisciplinary Information Studies at the University of Tokyo. I expect to graduate in Spring, 2026.",
         "summary_ja": [
@@ -21,7 +21,8 @@
         { "name": "Interaction Design" },
         { "name": "User Interface" },
         { "name": "UX" },
-        { "name": "Video Game" }
+        { "name": "Video Game" },
+        { "name": "Video Game Streaming"}
     ],
     "skills": [
         {
@@ -107,9 +108,30 @@
                 "conference": "ヒューマンインタフェースシンポジウム2024",
                 "date": "2024.09",
                 "misc": []
+            },
+            {
+                "title": "PlayBranch: ゲーム実況動画の再生中にプレイを継承するシステム",
+                "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
+                "conference": "インタラクション2025",
+                "date": "2025.03",
+                "misc": ["プレミアム発表選出"]
+            },
+            {
+                "title": "ゲーム実況動画の再生中にゲームプレイを継承するPlayBranchのWebアプリへの展開",
+                "author": ["田中 祐玖", "畑田 裕二", "Hautasaari Ari", "苗村 健"],
+                "conference": "エンタテインメントコンピューティング2025",
+                "date": "2025.08",
+                "misc": []
             }
         ],
         "exhibition": [
+            {
+                "title": "調理されてなるものか！",
+                "author": ["杉田 胡桃", "滑川 遥介", "井口 恵吾", "田中 祐玖", "鈴木 宏明", "中張 祥太", "深澤 椋", "山口 翔太郎"],
+                "exhibition":"BitSummit Drift",
+                "date": "2024.07",
+                "misc": []
+            },
             {
                 "title": "裏地図",
                 "author": ["井上 国太郎", "田中 祐玖", "機田 悠希", "花岡 桃可", "鈴木 健"],
@@ -122,6 +144,20 @@
                 "author": ["小西 優多郎", "田中 祐玖", "都築 あい", "席 竞帆"],
                 "exhibition":"東京大学制作展 2024 付いて離れて",
                 "date": "2024.11",
+                "misc": []
+            },
+            {
+                "title": "Animemory -記憶の図書館-",
+                "author": ["大髙 那由子", "イトケン", "柳下 美恵", "田中祐玖"],
+                "exhibition":"ENCOUNTERS 2025",
+                "date": "2025.09",
+                "misc": []
+            },
+            {
+                "title": "PlayBranch",
+                "author": ["東京大学 苗村研究室"],
+                "exhibition":"東京ゲームショウ2025",
+                "date": "2025.09",
                 "misc": []
             }
         ]
@@ -138,6 +174,12 @@
             "publisher": "4Gamer.net",
             "date": "2024.07",
             "url": "https://www.4gamer.net/games/999/G999905/20240727007/"
+        },
+        {
+            "title": "【TGS2025】「東京大学 苗村研究室」ブースでゲームシステム「PlayBranch」開発者の東大生・田中祐玖さんにインタビュー！",
+            "publisher": "Saiga NAK",
+            "date": "2025.10",
+            "url": "https://saiganak.com/ja/interview/tgs2025-u-tokyo-nae-lab-booth-report/"
         }
     ],
     "references": [
