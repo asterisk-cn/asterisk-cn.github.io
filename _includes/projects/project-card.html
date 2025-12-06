@@ -29,8 +29,10 @@
           {% include projects/social.html url=page.githuburl name="github" %}
         </span>
         {% endif %}
-        {% if page.youtubeurl %}
+        {% if {page.fullpage or page.projecturl} and {page.githuburl or page.youtube} %}
         <div class="vr me-2" style="vertical-align: middle; height: 2em;"></div>
+        {% endif %}
+        {% if page.youtubeurl %}
         <span>
           {% include projects/social.html url=page.youtubeurl name="youtube" %}
         </span>
