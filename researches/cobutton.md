@@ -11,5 +11,6 @@ labels:
   - Python
   - Unity
   - Arduino
+summary: "氷の物性を活用したゲームコントローラ"
 youtubeurl: https://www.youtube.com/watch?v=xQLDryRYrqQ
 ---
