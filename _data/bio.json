@@ -6,11 +6,11 @@
         "picture": "https://github.com/asterisk-cn.png",
         "email": "ttanaka[at]nae-lab.org",
         "website": "https://asterisk-cn.github.io",
-        "summary": "I am studying for M.S. in emerging design and informatics in the Graduate School of Interdisciplinary Information Studies at the University of Tokyo. I expect to graduate in Spring, 2026.",
+        "summary": "I am a Ph.D. student in the the Graduate School of Interdisciplinary Information Studies at the University of Tokyo. My research area is Human Computer Interaction especially in video game and streaming.",
+
         "summary_ja": [
-            "東京大学大学院学際情報学府 修士課程在籍。2026年春に修了予定。",
-            "人間とコンピュータの間の相互作用に焦点を当てた学際的研究分野「ヒューマンコンピュータインタラクション（HCI）」を専門に活動。",
-            "その傍ら、プログラマーとして個人・チームでのゲーム制作に従事。"
+            "東京大学大学院学際情報学府 博士課程在籍。2029年春に修了予定。",
+            "人間とコンピュータのより良い関係を模索する「ヒューマンコンピュータインタラクション（HCI）」を専門に活動。"
         ],
         "location": { "address": "", "postalCode": "", "city": "Chiba-shi", "countryCode": "Japan", "region": "Chiba" },
         "profiles": [{ "network": "github", "username": "asterisk-cn", "url": "http://github.com/asterisk-cn" }]
@@ -24,36 +24,44 @@
     "skills": [
         {
             "name": "Languages",
-            "keywords": ["C", "C++", "C#", "CSS", "HTML5", "Javascript/Typescript", "Julia", "Python"]
+            "keywords": ["Javascript/Typescript", "Python", "C#", "C/C++", "Golang", "Rust", "Julia"]
         },
         {
             "name": "Frameworks/Libraries",
-            "keywords": ["Node.js", "React", "Unity", "Unreal Engine"]
+            "keywords": ["Next.js", "React", "Unity", "Unreal Engine"]
         },
         {
             "name": "ML/DL",
-            "keywords": ["Keras", "PyTorch", "scikit-learn", "TensorFlow"]
+            "keywords": ["PyTorch", "scikit-learn", "TensorFlow", "Keras"]
         },
         {
             "name": "Others",
-            "keywords": ["Docker", "Git/Github", "LaTeX", "Linux"]
+            "keywords": ["Docker", "Git/Github", "Linux"]
         }
     ],
     "education": [
         {
             "institution": "The University of Tokyo Faculty of Engineering",
-            "area": "Computer Science",
+            "area": "Engineering",
             "studyType": "B.S.",
             "startDate": "2020-04",
             "endDate": "2024-03",
-            "courses": ["Department of Electrical and Electronic Engineering"]
+            "courses": ["Department of Information and Communication Engineering"]
         },
         {
             "institution": "The University of Tokyo Interfaculty Initiative in Information Studies",
-            "area": "Arts and Sciences (expected Spring, 2026)",
-            "studyType": "M.S.",
+            "area": "Interdisciplinary Information Studies",
+            "studyType": "M.A.S.",
             "startDate": "2024-04",
-            "endDate": "Present",
+            "endDate": "2026-03",
+            "courses": ["Emerging design and informatics course"]
+        },
+        {
+            "institution": "The University of Tokyo Interfaculty Initiative in Information Studies",
+            "area": "Interdisciplinary Information Studies",
+            "studyType": "Ph.D.",
+            "startDate": "2026-04",
+            "endDate": "present",
             "courses": ["Emerging design and informatics course"]
         }
     ],
