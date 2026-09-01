@@ -13,3 +13,8 @@ gem 'html-proofer'
 gem 'jekyll-gist'
 gem 'rouge'
 gem 'jekyll-polyglot', '~> 1.8'
+
+# Ruby 3.4 removed these from the default gems; Jekyll 4.3.x still requires them.
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
