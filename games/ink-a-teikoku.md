@@ -12,7 +12,7 @@ labels:
   - Bootstrap
 summary: "ジャンケンに代わる簡単なゲーム<br>あそびの未来ファクトリー2022にて最優秀賞を受賞"
 projecturl: https://ink-a-teikoku.onrender.com/
-githuburl: https://github.com/asterisk-cn/asterisk-cn.github.io
+githuburl: https://github.com/asterisk-cn/ink-a-teikoku
 fullpage: true
 ---
 
