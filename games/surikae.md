@@ -8,8 +8,7 @@ title: "すりかえ"
 date: 2026-09-01
 published: true
 labels:
-  - Javascript
-  - Bootstrap
+  - Svelte
 summary: "カードを「すりかえ」、「ぶらふ」で出し抜け"
 projecturl: https://surikae.astrsk.work
 githuburl: https://github.com/asterisk-cn/surikae
