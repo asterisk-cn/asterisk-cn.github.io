@@ -1,0 +1,79 @@
+{%- comment -%}
+  Featured shelf: a horizontal strip of big slides, one per game marked
+  `featured: true`, newest first. Each slide is a link to the game's page;
+  the next slide peeks in from the right so the strip reads as scrollable.
+{%- endcomment -%}
+{% assign featured = site.pages | where: "type", "game" | where: "featured", true | sort: "date" | reverse %}
+{% if featured.size > 0 %}
+<section class="tf-featured" aria-label="注目">
+  <div class="container">
+    <div class="tf-featured-head">
+      <h2 class="h5 mb-0">注目</h2>
+      {% if featured.size > 1 %}
+      <div class="tf-featured-arrows">
+        <button type="button" class="tf-featured-arrow" data-dir="-1" aria-label="前へ"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button type="button" class="tf-featured-arrow" data-dir="1" aria-label="次へ"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="tf-featured-track">
+      {% for game in featured %}
+      <a class="tf-featured-slide tf-verb-host" href="{{ site.baseurl }}{{ game.url }}" style="--tf-verb-color: {{ game.verb_color | default: 'var(--bs-gray-600)' }}">
+        <div class="tf-featured-media">
+          <img src="{{ site.baseurl }}/{{ game.image }}" class="tf-featured-backdrop" alt="">
+          <img src="{{ site.baseurl }}/{{ game.image }}" class="tf-featured-cover" alt="">
+        </div>
+        <div class="tf-featured-info">
+          {% include games/verb.html page=game %}
+          <div class="tf-featured-text">
+            <h3 class="tf-featured-title">{{ game.title }}</h3>
+            <p class="tf-featured-summary">{{ game.summary }}</p>
+            {% if game.genres %}
+            <div class="tf-featured-genres">
+              {% for genre in game.genres %}<span class="tf-genre">{{ genre }}</span>{% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    {% if featured.size > 1 %}
+    <div class="tf-featured-dots" aria-hidden="true">
+      {% for game in featured %}<span class="tf-featured-dot"></span>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.tf-featured').forEach(function (shelf) {
+    var track = shelf.querySelector('.tf-featured-track');
+    var slides = track.querySelectorAll('.tf-featured-slide');
+    var dots = shelf.querySelectorAll('.tf-featured-dot');
+    var current = function () {
+      var left = track.scrollLeft, best = 0, dist = Infinity;
+      slides.forEach(function (s, i) {
+        var d = Math.abs(s.offsetLeft - left);
+        if (d < dist) { dist = d; best = i; }
+      });
+      return best;
+    };
+    var go = function (i) {
+      i = (i + slides.length) % slides.length;
+      track.scrollTo({ left: slides[i].offsetLeft, behavior: 'smooth' });
+    };
+    var mark = function () {
+      var i = current();
+      dots.forEach(function (d, j) { d.classList.toggle('is-current', i === j); });
+    };
+    shelf.querySelectorAll('.tf-featured-arrow').forEach(function (b) {
+      b.addEventListener('click', function () { go(current() + Number(b.dataset.dir)); });
+    });
+    track.addEventListener('scroll', mark, { passive: true });
+    mark();
+  });
+</script>
+{% endif %}

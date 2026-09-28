@@ -1,39 +1,19 @@
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
-    </div>
-    <div class="col-sm-6 col-md-8">
+<div class="card mb-3 tf-game-card tf-verb-host" style="--tf-verb-color: {{ include.page.verb_color | default: 'var(--bs-gray-600)' }}">
+  {% include games/verb.html page=include.page %}
+  <div class="tf-game-card-body">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}" class="tf-game-thumb" alt="">
+    <div class="tf-game-card-text">
       <div class="card-body">
-        <div class="d-flex align-items-start justify-content-between">
-          <h5 class="card-title mb-0">{{ include.page.title }}</h5>
-          <h5><small class="text-muted text-nowrap">{{ include.page.date }}</small></h5>
+        <div class="tf-game-card-head">
+          <h5 class="card-title mb-0 tf-game-card-title"><a href="{{ site.baseurl }}{{ include.page.url }}" class="stretched-link text-reset text-decoration-none">{{ include.page.title }}</a></h5>
+          <small class="text-muted text-nowrap">{{ include.page.date }}</small>
         </div>
-        <p class="card-text">{{ include.page.summary }}</p>
-        <p>
+        <div class="tf-game-card-summary"><p class="card-text">{{ include.page.summary }}</p></div>
+        <p class="mb-0 tf-game-card-labels">
           {% for label in include.page.labels %}
           <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
         </p>
-        {% if page.fullpage %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark me-2">Read More</a>
-        {% endif %}
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark me-2">Play</a>
-        {% endif %}
-        {% if {page.fullpage or page.projecturl} and {page.githuburl or page.youtube} %}
-        <div class="vr me-2" style="vertical-align: middle; height: 2em;"></div>
-        {% endif %}
-        {% if page.githuburl %}
-        <span>
-          {% include games/social.html url=page.githuburl name="github" %}
-        </span>
-        {% endif %}
-        {% if page.youtubeurl %}
-        <span>
-          {% include games/social.html url=page.youtubeurl name="youtube" %}
-        </span>
-        {% endif %}
       </div>
     </div>
   </div>

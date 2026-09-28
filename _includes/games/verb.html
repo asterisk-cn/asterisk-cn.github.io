@@ -1,0 +1,15 @@
+{%- comment -%}
+  The game's verb, drawn large behind its card or page title. Motions that
+  move the characters one by one (maai) get each character in its own span.
+{%- endcomment -%}
+{%- assign verb = include.page.verb -%}
+{%- if verb -%}
+<span class="tf-verb" lang="{{ include.page.lang }}" data-verb="{{ verb }}" data-motion="{{ include.page.verb_motion }}" aria-hidden="true">
+  {%- if include.page.verb_motion == "maai" -%}
+    {%- assign chars = verb | split: "" -%}
+    {%- for char in chars -%}<span class="tf-verb-part">{{ char }}</span>{%- endfor -%}
+  {%- else -%}
+    {{ verb }}
+  {%- endif -%}
+</span>
+{%- endif -%}

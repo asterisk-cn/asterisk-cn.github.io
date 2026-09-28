@@ -1,20 +1,24 @@
-<header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+<header class="navbar navbar-expand-sm navbar-light bg-light bg-gradient border-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
-        <div class="ms-auto">
-            <ul class="navbar-nav mb-2 mb-lg-0">
+        <!-- Below the sm breakpoint the links and language switcher fold into this menu. -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tf-nav" aria-controls="tf-nav" aria-expanded="false" aria-label="メニュー">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="tf-nav">
+            <ul class="navbar-nav ms-auto mb-0">
                 <a class="nav-link" href="{{ '/#researches' | prepend: site.baseurl }}">Researches</a>
-                <a class="nav-link" href="{{ '/#games' | prepend: site.baseurl }}">Games</a>
+                <a class="nav-link" href="{{ '/games/' | prepend: site.baseurl }}">Games</a>
                 <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
                 <!-- <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a> -->
                 <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
             </ul>
-        </div>
-        <!-- Lang Switcher -->
-        <div class="mx-2">
+            <!-- Lang Switcher -->
+            <div class="tf-lang mx-sm-2 text-nowrap">
             {% for tongue in site.languages %}
             <a {% if tongue == site.active_lang %}class="navbar-lang-active" {% else %}class="navbar-lang" {% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" / "}}{{ site.langsep }}{%- endif -%}
             {% endfor %}
+            </div>
         </div>
     </div>
 </header>
