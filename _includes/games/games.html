@@ -24,3 +24,21 @@
 
   </div>
 </div>
+
+<script>
+  // Clamp each summary to the lines that fit beside its thumbnail.
+  (function () {
+    var fit = function (box) {
+      var p = box.firstElementChild;
+      var line = parseFloat(getComputedStyle(p).lineHeight) || 24;
+      var lines = Math.floor((box.clientHeight + 1) / line);
+      p.style.webkitLineClamp = String(Math.max(lines, 1));
+      p.style.maxHeight = Math.max(lines, 0) * line + 'px';
+    };
+    var summaries = document.querySelectorAll('.tf-game-card-summary');
+    var ro = window.ResizeObserver && new ResizeObserver(function (entries) {
+      entries.forEach(function (e) { fit(e.target); });
+    });
+    summaries.forEach(function (p) { fit(p); if (ro) ro.observe(p); });
+  })();
+</script>

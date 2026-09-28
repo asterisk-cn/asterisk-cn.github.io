@@ -1,0 +1,92 @@
+---
+layout: home
+---
+
+{% if page.gallery %}
+  {% assign gallery = page.gallery %}
+{% else %}
+  {% assign gallery = page.image | split: "|" %}
+{% endif %}
+
+<div class="tf-game-page" style="--tf-verb-color: {{ page.verb_color | default: 'var(--bs-gray-600)' }}">
+  <div class="tf-game-hero tf-verb-host">
+    {% include games/verb.html page=page %}
+    <div class="container tf-game-hero-body">
+      <h1 class="display-4 mb-0">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="container py-4">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="tf-gallery">
+          <div class="tf-gallery-main">
+            <img src="{{ site.baseurl }}/{{ gallery | first }}" alt="">
+          </div>
+          {% if gallery.size > 1 %}
+          <div class="tf-gallery-strip">
+            {% for shot in gallery %}
+            <button type="button" class="tf-gallery-thumb" data-src="{{ site.baseurl }}/{{ shot }}" aria-label="{{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}>
+              <img src="{{ site.baseurl }}/{{ shot }}" alt="" loading="lazy">
+            </button>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <aside class="tf-game-side">
+          <p class="tf-game-summary">{{ page.summary }}</p>
+          <dl class="tf-game-facts">
+            <dt>リリース日</dt>
+            <dd>{{ page.date | date: "%Y-%m-%d" }}</dd>
+            {% if page.labels %}
+            <dt>使用技術</dt>
+            <dd>{{ page.labels | join: ", " }}</dd>
+            {% endif %}
+          </dl>
+          {% if page.genres %}
+          <div class="tf-game-genres" aria-label="ジャンル">
+            {% for genre in page.genres %}
+            <span class="tf-genre">{{ genre }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+          <div class="d-flex align-items-center gap-3 mt-3">
+            {% if page.projecturl %}
+            <a href="{{ page.projecturl }}" class="btn btn-dark btn-lg flex-grow-1">Play</a>
+            {% endif %}
+            {% if page.githuburl %}
+            {% include games/social.html url=page.githuburl name="github" %}
+            {% endif %}
+            {% if page.youtubeurl %}
+            {% include games/social.html url=page.youtubeurl name="youtube" %}
+            {% endif %}
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {% assign body = content | strip %}
+    {% if body != "" %}
+    <section class="tf-game-about mt-4">
+      {{ content }}
+    </section>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.tf-gallery').forEach(function (gallery) {
+    var main = gallery.querySelector('.tf-gallery-main img');
+    var thumbs = gallery.querySelectorAll('.tf-gallery-thumb');
+    thumbs.forEach(function (thumb) {
+      thumb.addEventListener('click', function () {
+        main.src = thumb.dataset.src;
+        thumbs.forEach(function (t) { t.removeAttribute('aria-current'); });
+        thumb.setAttribute('aria-current', 'true');
+      });
+    });
+  });
+</script>

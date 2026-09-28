@@ -1,0 +1,19 @@
+{%- comment -%}
+  Stub for a page that moved. Polyglot renders it once per language, so the
+  target gets the language prefix here; static_href stops Polyglot adding it
+  a second time.
+{%- endcomment -%}
+{%- capture target -%}{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}{{ page.redirect_to }}{%- endcapture -%}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ site.url }}{{ target }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+</head>
+<body>
+  <a {% static_href %}href="{{ target }}"{% endstatic_href %}>{{ site.url }}{{ target }}</a>
+</body>
+</html>
