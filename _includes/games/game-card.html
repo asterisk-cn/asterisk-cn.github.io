@@ -9,11 +9,11 @@
           <small class="text-muted text-nowrap">{{ include.page.date }}</small>
         </div>
         <div class="tf-game-card-summary"><p class="card-text">{{ include.page.summary }}</p></div>
-        <p class="mb-0 tf-game-card-labels">
-          {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-          {% endfor %}
-        </p>
+        {% if include.page.genres %}
+        <div class="tf-game-card-labels">
+          {% for genre in include.page.genres %}<span class="tf-genre">{{ genre }}</span>{% endfor %}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
